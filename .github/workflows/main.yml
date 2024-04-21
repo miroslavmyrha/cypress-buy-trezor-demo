@@ -19,6 +19,7 @@ jobs:
         if: always()
         with:
           name: Cypress artifacts
+          path: cypress/screenshots
 
 
 

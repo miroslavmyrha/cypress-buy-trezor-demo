@@ -10,15 +10,15 @@ jobs:
         uses: actions/checkout@v4
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          start: npm run cypress:run
       - name: Download the screenshots folder
         uses: actions/download-artifact@v4
         with:
           name: cypress
           path: cypress/screenshots
-      - name: Cypress run
-        uses: cypress-io/github-action@v6
-        with:
-          start: npm run cypress:run
 
 
 

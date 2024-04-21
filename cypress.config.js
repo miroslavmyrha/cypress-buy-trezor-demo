@@ -11,6 +11,13 @@ module.exports = defineConfig({
     collectResponse: 'https://sgtm.trezor.io/g/collect**',
     setupNodeEvents(on, config) {
       // implement node event listeners here
+      on('before:browser:launch', (browser, args) => {
+        if (browser.name === 'electron' && browser.isHeadless) {
+          args.push('--window-size=1920,1080')
+      
+          return args
+        }
+      })
     },
   },
 })

@@ -14,11 +14,11 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           start: npm run cypress:run
-      - name: Download the screenshots folder
+      - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
-          name: cypress
-          path: cypress/screenshots
+          name: Cypress artifacts
+          path: /artifacts/
 
 
 

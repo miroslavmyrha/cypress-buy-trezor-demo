@@ -1,0 +1,8 @@
+{
+    "firstName": "Name",
+    "lastName": "Surname",
+    "yourEmail": "mail@mail.com",
+    "phone": "777 888 999",
+    "newsletter": true,
+    "termsOfService": true
+}

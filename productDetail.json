@@ -1,0 +1,190 @@
+{
+  "basic-icon-iconsvg-TrezorLogo": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-CaretDown": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Amazon": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Star": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Codepen": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-ArrowsOut": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Coin": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-UsbC": [
+    "svg",
+    ""
+  ],
+  "btn-buy": [
+    "BUTTON",
+    "Buy for 4 390 Kč"
+  ],
+  "basic-icon-iconsvg-CopperCoin": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Chart": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-DoubleCheck": [
+    "svg",
+    ""
+  ],
+  "basic-heading-h3": [
+    "H3",
+    "Material"
+  ],
+  "basic-icon-iconsvg-Search": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Plus": [
+    "svg",
+    ""
+  ],
+  "basic-heading-h2": [
+    "H2",
+    "Discover yourideal wallet"
+  ],
+  "basic-icon-iconsvg-ArrowsLeftRight": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Check": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Apple": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Windows": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Linux": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Android": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-AppleiOS": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-ShieldCheckEmpty": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Globe": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Shuffle": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-CircleDashed": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Tor": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Backup": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-FileText": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Notification": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-CheckCircle": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Thermometer": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-CPU": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-T2T1Outline": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Copy": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-MagneticDock": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-BookOpen": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Sticker": [
+    "svg",
+    ""
+  ],
+  "layout-webline": [
+    "DIV",
+    "Frequently asked questionsWhat’s the difference between Model T vs Model One?The Trezor Model T hardware wallet offers a touchscreen, advanced security features, and broader cryptocurrency compatibility, while the Trezor Model One is more budget-friendly with physical buttons and a bright OLED screen for high-definition display quality.What are the reviews of Trezor Model T?The Trezor Model T gets a thumbs-up for being super secure, easy to use with its touchscreen, works with lots of different cryptocurrencies, built like a tank, gets regular security updates, and is a the trusted go-to brand in crypto security and privacy.What is the best hardware wallet for altcoins and other digital assets?The Model T is an advanced crypto hardware wallet designed to securely store access to your coins and tokens with a sleek touchscreen interface. The wallet provides native support for 14 assets, including well-known cryptocurrencies like Bitcoin, Ethereum, and Dogecoin. Additionally, it offers support for a vast array of over 9000+ altcoins and tokens.How do I transfer my funds from an exchange (Coinbase or Binance) to Model T?To move your crypto from Coinbase to your Trezor, connect your Trezor device, open Trezor Suite, and enter your PIN. Then, select your receiving account and note the wallet address. Log in to Coinbase, choose the cryptocurrency, paste the address, and confirm the transaction. Your crypto will be securely transferred to your Trezor wallet.Why should I use Trezor Model T instead of holding crypto on an exchange?Storing anything online is risky. Exchanges, which serve as platforms for trading and storing digital assets, are often attractive targets for hackers, susceptible to security breaches, and a high risk of exposing your personal data, including sensitive info. Trezor Model T is keeps the access to your crypto offline, safe and secure."
+  ],
+  "buy-btn": [
+    "BUTTON",
+    "Buy"
+  ],
+  "basic-icon-iconsvg-ChatLeft": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-ChevronDown": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Twitter": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Reddit": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Instagram": [
+    "svg",
+    ""
+  ],
+  "basic-icon-iconsvg-Facebook": [
+    "svg",
+    ""
+  ]
+}

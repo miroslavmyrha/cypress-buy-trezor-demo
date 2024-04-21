@@ -16,6 +16,7 @@ jobs:
           start: npm run cypress:run
       - name: Download artifacts
         uses: actions/download-artifact@v4
+        if: always()
         with:
           name: Cypress artifacts
           path: /artifacts/

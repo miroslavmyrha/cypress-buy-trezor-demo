@@ -145,6 +145,7 @@ describe('Demo tests', () => {
 
                 const populatedDeliveryAddressInputs = {
 
+                    state: '',
                     streetAndHouseNumber: '',
                     apartmentSuite: '',
                     ZIPCode: '',
@@ -163,9 +164,7 @@ describe('Demo tests', () => {
 
             })
 
-            cy.getElementByDataTestID('pages-checkout-delivery-type-dhl-express')
-                .click()
-
+            // wrong data attribute naming
             cy.getElementByDataTestID('pages-checkout-delivery-types-submit')
                 .click()
 

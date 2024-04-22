@@ -133,7 +133,7 @@ Cypress.Commands.add('fillAboutYouForm', (objectWithData) => {
     }
 })
 
-Cypress.Commands.add('fillDeliveryAddressForm', (objectWithData) => {
+Cypress.Commands.add('fillDeliveryAddressForm', (objectWithData) => {  
 
     if (objectWithData.streetAndHouseNumber !== '') {
         cy.getElementByDataTestID('pages-checkout-delivery-address-street-and-house-no')
@@ -171,4 +171,17 @@ Cypress.Commands.add('fillDeliveryAddressForm', (objectWithData) => {
                 {delay: 0}
             )
     }
+
+    if (objectWithData.state !== '') {
+        cy.getElementByDataTestID('pages-checkout-delivery-address-state-select')
+            .should('be.visible')
+            .click()
+
+        cy.getElementByDataTestID('pages-checkout-delivery-address-country-search')
+            .should('be.visible')
+            .type(
+                objectWithData.state + '{enter}',
+            )
+    }
+
 })

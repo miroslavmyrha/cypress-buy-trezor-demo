@@ -69,7 +69,7 @@ describe('Demo tests', () => {
 
             cy.wait('@collectResponse')
 
-            // There are probably bug. It should have 2 items in cart, but for continue buy process and finish it will be ignored for now.
+            // There is probably a bug since we should have 2 items in the cart, but for the purposes of continuing in the purchase process, this will be ignored for now.
             // cy.itemsInCartHasValue(2)
             //    .and('be.visible')
 
@@ -88,7 +88,7 @@ describe('Demo tests', () => {
                     {delay: 0}
                 )
             
-            // there is also typo?
+            // There is also typo?
             cy.getElementByDataTestID('-fetching-button')
                 .click()
 
@@ -102,7 +102,7 @@ describe('Demo tests', () => {
             cy.getElementByDataTestID('pages-cart-list-checkout-cart')
                 .click()
 
-            // select light blue version of Trezor protection 
+            // Select light blue version of Trezor protection 
             cy.getElementByDataTestID('section-Addprotection')
                 .find('[data-testid="basic-icon-iconsvg-ChevronDown"]')
                 .click({force: true})

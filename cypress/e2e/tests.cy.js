@@ -119,6 +119,17 @@ describe('Demo tests', () => {
 
             cy.wait('@collectResponse')
 
+            cy.getElementByDataTestID('basic-icon-iconsvg-ChevronDown')
+                .filter(':visible')
+                .click()
+
+            cy.getElementByDataTestID('pages-checkout-delivery-address-country-search')
+                .type('United')
+
+            cy.get('p')
+                .contains('United States of America')
+                .click()
+
             Object.keys(aboutYouData).forEach(input => {
 
                 const populatedAboutYouInputs = {

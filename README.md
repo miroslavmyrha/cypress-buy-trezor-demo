@@ -7,6 +7,6 @@ To run use:
 
 - npm run cypress:open
 
-- npm run cypress:open
+- npm run cypress:run
 
 Scraping can be enabled in cypress.config.js
